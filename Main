@@ -10,11 +10,11 @@ import jieba.analyse
 from collections import Counter # 次數統計
 
 
-dictfile = "C:/Users/OS054/Desktop/wordCloud/dict.txt"  # 字典檔
-stopfile = "C:/Users/OS054/Desktop/wordCloud/stopwords.txt"  # stopwords
-fontpath = "C:/Users/OS054/Desktop/wordCloud/mingliu.ttc"  # 字型檔
+dictfile = "C:/Users/Desktop/wordCloud/dict.txt"  # 字典檔
+stopfile = "C:/Users/Desktop/wordCloud/stopwords.txt"  # stopwords
+fontpath = "C:/Users/Desktop/wordCloud/mingliu.ttc"  # 字型檔
 
-mdfile = "C:/Users/OS054/Desktop/wordCloud/kb-test.txt"  # 文檔
+mdfile = "C:/Users/Desktop/wordCloud/kb-test.txt"  # 文檔
 #pngfile = "c:/test-wordcloud/cloud.jpg"
 
 jieba.set_dictionary(dictfile)
